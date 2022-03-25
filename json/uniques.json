@@ -1,0 +1,15 @@
+
+{
+    "__comment": "ID des NFT uniques avec les pierres précieuses",
+
+    "Platine (gris)": 387,
+    "Diamant (transparent)": 795, 
+    "Rubis (rouge)": 1019, 
+    "Emeraude (vert)": 2821, 
+    "Sapphire (bleu)": 3654, 
+    "Quartz (rose)": 4875, 
+    "Perle (blanc)": 5344, 
+    "Opale (mulicolore)": 5468,
+    "Tourmaline (multicolore)": 5702, 
+    "Onyx (noir)": 6549
+}

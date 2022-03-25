@@ -1,0 +1,64 @@
+{
+"layers": [
+    {
+        "name": "Helmet",
+        "list": [0, 1, 2, 3, 4, 5, 6],
+        "values": ["Elrond Crown", "Viking", "Sheriff", "Candle", "Beret", "Light", "Louis 14"],
+        "trait_path": "./trait-layers/helmet",
+        "surname": ["He_crown", "He_viking", "He_sheriff", "He_candle", "He_beret", "He_light", "He_louis"],
+        "weights": [5, 10, 10, 18.75, 18.75, 18.75, 18.75]
+    },
+    {
+        "name": "Beard",
+        "list": [0, 1, 2, 3, 4, 5],
+        "values": ["T1 Brown", "T2 Red", "T3 Blond", "T4 Blond", "T5 Brown", "T6 Red"],
+        "trait_path": "./trait-layers/beard",
+        "surname": ["Be_T1", "Be_T2", "Be_T3", "Be_T4", "Be_T5", "Be_T6"],
+        "weights": [16.67, 16.67, 16.67, 16.67, 16.67, 16.67]
+    },
+    {
+        "name": "Eyes",
+        "list": [0, 1, 2, 3, 4, 5],
+        "values": ["Cyborg", "Lee Sin", "Pirate Patch", "Aviator", "Monocle", "Glasses"],
+        "trait_path": "./trait-layers/eyes",
+        "surname": ["Ey_cyborg", "Ey_lee-sin", "Ey_pirate", "Ey_aviator", "Ey_monocle", "Ey_glasses"],
+        "weights": [5, 10, 10, 25, 25, 25]
+    },
+    {
+        "name": "Pickaxes",
+        "list": [0, 1, 2, 3, 4],
+        "values": ["Private", "Red", "Green", "White", "Gray"],
+        "trait_path": "./trait-layers/pickaxes",
+        "surname": ["Pi_private", "Pi_red", "Pi_green", "Pi_white", "Pi_gray"],
+        "weights": [0, 25, 25, 25, 25]
+    },
+    {
+        "name": "Clothes",
+        "list": [0, 1, 2, 3, 4, 5, 6],
+        "values": ["Overalls", "Smith", "Miner Tee-shirt", "Green shirt", "Red shirt", "White jacket", "Black jacket"],
+        "trait_path": "./trait-layers/clothes",
+        "surname": ["Cl_overalls", "Cl_smith", "Cl_t-shirt", "Cl_green_shirt", "Cl_red_shirt", "Cl_white_jacket", "Cl_black_jacket"],
+        "weights": [5, 10, 10, 18.75, 18.75, 18.75, 18.75]
+    },
+    {
+        "name": "Background",
+        "list": [0, 1, 2, 3],
+        "values": ["Eclipse", "Meteorite", "Storm", "Other Mine"],
+        "trait_path": "./trait-layers/background",
+        "surname": ["Ba_eclipse", "Ba_meteorite", "Ba_storm", "Ba_mine"],
+        "weights": [25, 25, 25, 25]
+    },
+    {
+        "name": "Accessory",
+        "list": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+        "values": ["Gold Bar", "Dollars", "Jewelry", "Gravels", "Lantern", "Coal", 
+            "Platine (gris)", "Diamant (transparent)", "Rubis (rouge)", "Emeraude (vert)", "Sapphire (bleu)", 
+            "Quartz (rose)", "Perle (blanc)", "Opale (mulicolore)", "Tourmaline (multicolore)", "Onyx (noir)"],
+        "trait_path": "./trait-layers/accessory",
+        "surname": ["Ac_goldbar", "Ac_dollars", "Ac_jewelry", "Ac_gravels", "Ac_lantern", "Ac_coal",
+            "Ac_platine", "Ac_diamant", "Ac_rubis", "Ac_emeraude", "Ac_sapphire", 
+            "Ac_quartz", "Ac_perle", "Ac_opale", "Ac_tourmaline", "Ac_onyx"],
+        "weights": [5, 10, 10, 25, 25, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
+]
+}
